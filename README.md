@@ -1,6 +1,6 @@
 # Understanding Serverless APIs Sample API
 
-To deploy this sample API, Node.js, the AWS CLI, and the AWS CDK need to be installed.  Install Node your preferred manner, then install the CDK via Node:
+To deploy this sample API, Node.js, the AWS CLI, and the AWS CDK need to be installed.  Install Node in your preferred manner, then install the CDK via Node:
 
 ```
 npm install -g aws-cdk
@@ -32,7 +32,7 @@ Deploy the API:
 cdk deploy --all
 ```
 
-To use the API, retrieve the output API URL and open `demo-data.txt` for example API calls. Replace the `<API_URL>` with the API URL output by the CDK.
+To use the API, retrieve the output API URL and open `demo-data.txt` for example API calls. Replace the `<API_URL>` with the API URL output by the CDK. Use your terminal to send the calls!
 
 When done, destroy the API (or if you're on the Cloud Playground, just delete the playground, I won't judge):
 
